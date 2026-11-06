@@ -1,0 +1,12 @@
+{
+  "name": "agent-reputation-selfhost",
+  "version": "1.0.0",
+  "description": "Agent Reputation web app with real Google sign-in and a device-only admin activity log",
+  "main": "server.js",
+  "scripts": { "start": "node --env-file=.env server.js" },
+  "engines": { "node": ">=20.6" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "google-auth-library": "^9.14.0"
+  }
+}
